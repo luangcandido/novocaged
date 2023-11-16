@@ -5,9 +5,32 @@ Authors@R: person('Luan G.', 'Cândido', email = 'luan@dieese.org.br', role = c(
 Description: Aplicativo voltado a exploração dos microdados do Novo CAGED. Em construção.
 License: MIT + file LICENSE
 Imports: 
+    archive,
     config,
+    data.table,
+    dplyr,
+    DT,
+    electricShine,
     golem,
-    shiny
+    janitor,
+    readxl,
+    rlang,
+    shiny,
+    shinycssloaders,
+    shinydashboard,
+    shinyWidgets,
+    stringr,
+    testthat,
+    tidyr
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    spelling
+Config/testthat/edition: 3
+Language: en-US
+VignetteBuilder: knitr
+URL: https://github.com/luangcandido/novocaged
+BugReports: https://github.com/luangcandido/novocaged/issues
